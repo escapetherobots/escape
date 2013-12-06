@@ -1,4 +1,11 @@
 Escape::Application.routes.draw do
+  root :to => 'static_pages#home'
+
+  get "path", to: 'controller#action', as: "name_of_path"
+  get "home", to: "static_pages#home", as: :home
+  get "about", to: "static_pages#about", as: :about
+  get "design-process", to: "static_pages#design-process", as: :design_process
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
