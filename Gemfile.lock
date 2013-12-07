@@ -1,15 +1,15 @@
 GIT
   remote: git://github.com/blowmage/minitest-rails.git
-  revision: 93d2c0172e756e1c09e9a20b6d52e13d794dc7b0
+  revision: f0783fb76cec69941de65e71d14b14a6a59e8be6
   specs:
-    minitest-rails (0.9.2.20131122075817)
+    minitest-rails (0.9.2.20131029140815)
       minitest (~> 4.7)
       minitest-test (~> 1.0)
       railties (>= 3.0)
 
 GIT
   remote: git://github.com/radar/forem.git
-  revision: c850446aa648f5877d0826a059638a6904c9d64d
+  revision: 0ad1931f42d8f32cb1f970ece38fa21c7b6a27a7
   specs:
     forem (1.0.0.beta1)
       cancan (= 1.6.10)
@@ -86,7 +86,7 @@ GEM
       activesupport (>= 3.0)
     cocaine (0.5.3)
       climate_control (>= 0.0.3, < 1.0)
-    cocoon (1.2.5)
+    cocoon (1.2.3)
     coderay (1.1.0)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
@@ -104,13 +104,13 @@ GEM
     debug_inspector (0.0.2)
     decorators (1.0.3)
       railties (>= 3.0.19, != 3.2.9, != 3.2.8, != 3.2.7, != 3.2.6, != 3.2.5, != 3.2.4, != 3.2.3, != 3.2.2, != 3.2.10, != 3.2.1, != 3.2.0, != 3.1.9, != 3.1.8, != 3.1.7, != 3.1.6, != 3.1.5, != 3.1.4, != 3.1.3, != 3.1.2, != 3.1.1, != 3.1.0)
-    devise (3.2.2)
+    devise (3.2.1)
       bcrypt-ruby (~> 3.0)
       orm_adapter (~> 0.1)
       railties (>= 3.2.6, < 5)
       thread_safe (~> 0.1)
       warden (~> 1.2.3)
-    docile (1.1.1)
+    docile (1.1.0)
     draper (1.3.0)
       actionpack (>= 3.0)
       activemodel (>= 3.0)
@@ -130,7 +130,7 @@ GEM
       railties (>= 3.0.0)
     faraday (0.8.8)
       multipart-post (~> 1.2.0)
-    ffaker (1.22.1)
+    ffaker (1.21.0)
     ffi (1.9.3)
     figaro (0.7.0)
       bundler (~> 1.0)
@@ -157,11 +157,11 @@ GEM
       lumberjack (~> 1.0)
       pry (>= 0.9.12)
       thor (>= 0.18.1)
-    guard-livereload (2.1.0)
+    guard-livereload (2.0.0)
       em-websocket (~> 0.5)
       guard (~> 2.0)
       multi_json (~> 1.8)
-    guard-minitest (2.1.2)
+    guard-minitest (2.1.1)
       guard (~> 2.0)
       minitest (>= 3.0)
     guard-pow (2.0.0)
@@ -173,7 +173,7 @@ GEM
       json (~> 1.8)
       multi_xml (>= 0.5.2)
     httpauth (0.2.0)
-    i18n (0.6.9)
+    i18n (0.6.5)
     journey (1.0.4)
     jquery-rails (3.0.4)
       railties (>= 3.0, < 5.0)
@@ -184,14 +184,15 @@ GEM
     kaminari (0.14.1)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
-    launchy (2.4.2)
+    launchy (2.4.0)
       addressable (~> 2.3)
     letter_opener (1.1.2)
       launchy (~> 2.2)
-    listen (2.3.1)
+    listen (2.2.0)
       celluloid (>= 0.15.2)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
+    lockfile (2.1.0)
     lumberjack (1.0.4)
     mail (2.5.4)
       mime-types (~> 1.16)
@@ -201,7 +202,7 @@ GEM
       rack-contrib
       railties
     method_source (0.8.2)
-    mime-types (1.25.1)
+    mime-types (1.25)
     mini_portile (0.5.2)
     minitest (4.7.5)
     minitest-test (1.0.0)
@@ -251,7 +252,7 @@ GEM
     polyglot (0.3.3)
     powder (0.2.0)
       thor (>= 0.11.5)
-    pry (0.9.12.4)
+    pry (0.9.12.3)
       coderay (~> 1.0)
       method_source (~> 0.8)
       slop (~> 3.4)
@@ -308,11 +309,12 @@ GEM
     select2-rails (3.4.9)
       sass-rails
       thor (~> 0.14)
-    simple_form (2.1.1)
+    simple_form (2.1.0)
       actionpack (~> 3.0)
       activemodel (~> 3.0)
-    simplecov (0.8.2)
+    simplecov (0.8.1)
       docile (~> 1.1.0)
+      lockfile (>= 2.1.0)
       multi_json
       simplecov-html (~> 0.8.0)
     simplecov-html (0.8.0)
@@ -334,7 +336,7 @@ GEM
       polyglot
       polyglot (>= 0.3.1)
     tzinfo (0.3.38)
-    uglifier (2.3.2)
+    uglifier (2.3.1)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
     unf (0.1.3)
@@ -344,7 +346,7 @@ GEM
     warden (1.2.3)
       rack (>= 1.0)
     workflow (0.8.0)
-    xray-rails (0.1.10)
+    xray-rails (0.1.9)
       coffee-rails
       rails (>= 3.1.0)
 
