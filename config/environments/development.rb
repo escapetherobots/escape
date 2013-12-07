@@ -34,4 +34,10 @@ Escape::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  #is an example of default_url_options appropriate for a development environment
+  config.action_mailer.default_url_options = { :host => 'localhost:3000' }
+
+  #In production, :host should be set to the actual host of your application.
+  
 end
