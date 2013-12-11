@@ -35,9 +35,19 @@ Escape::Application.configure do
   # Expands the lines which load the assets
   config.assets.debug = true
 
+  #all config settings would need to match actual domain in production
+  config.action_mailer.delivery_method = :smtp
+config.action_mailer.smtp_settings = {
+  address:              'smtp.gmail.com',
+  port:                 587,
+  domain:               'localhost:3000',
+  user_name:            ENV['GMAIL_EMAIL'],
+  password:             ENV['GMAIL_PASSWORD'],
+  authentication:       'plain',
+  enable_starttls_auto: true  }
+  
   #is an example of default_url_options appropriate for a development environment
   config.action_mailer.default_url_options = { :host => 'localhost:3000' }
-
   #In production, :host should be set to the actual host of your application.
   
 end
